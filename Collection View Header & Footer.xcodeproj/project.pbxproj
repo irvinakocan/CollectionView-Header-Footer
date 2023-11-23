@@ -13,6 +13,8 @@
 		24CD7CB62B002C820032C46E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CD7CB42B002C820032C46E /* Main.storyboard */; };
 		24CD7CB82B002C8C0032C46E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24CD7CB72B002C8C0032C46E /* Assets.xcassets */; };
 		24CD7CBB2B002C8C0032C46E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CD7CB92B002C8C0032C46E /* LaunchScreen.storyboard */; };
+		24CD7CC32B003C430032C46E /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD7CC22B003C430032C46E /* MyCollectionViewCell.swift */; };
+		24CD7CC52B003E4F0032C46E /* CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CD7CC42B003E4F0032C46E /* CollectionReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		24CD7CB72B002C8C0032C46E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24CD7CBA2B002C8C0032C46E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24CD7CBC2B002C8C0032C46E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24CD7CC22B003C430032C46E /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		24CD7CC42B003E4F0032C46E /* CollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				24CD7CAE2B002C820032C46E /* AppDelegate.swift */,
 				24CD7CB02B002C820032C46E /* SceneDelegate.swift */,
+				24CD7CC22B003C430032C46E /* MyCollectionViewCell.swift */,
 				24CD7CB22B002C820032C46E /* ViewController.swift */,
 				24CD7CB42B002C820032C46E /* Main.storyboard */,
 				24CD7CB72B002C8C0032C46E /* Assets.xcassets */,
 				24CD7CB92B002C8C0032C46E /* LaunchScreen.storyboard */,
 				24CD7CBC2B002C8C0032C46E /* Info.plist */,
+				24CD7CC42B003E4F0032C46E /* CollectionReusableView.swift */,
 			);
 			path = "Collection View Header & Footer";
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				24CD7CB32B002C820032C46E /* ViewController.swift in Sources */,
 				24CD7CAF2B002C820032C46E /* AppDelegate.swift in Sources */,
+				24CD7CC32B003C430032C46E /* MyCollectionViewCell.swift in Sources */,
+				24CD7CC52B003E4F0032C46E /* CollectionReusableView.swift in Sources */,
 				24CD7CB12B002C820032C46E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
